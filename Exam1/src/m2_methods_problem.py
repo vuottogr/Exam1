@@ -141,7 +141,7 @@ def count_primes(m,n):
 
 def test_multiply_primes():
     ################################################################################
-    #   TODO: 6. Read the doc string for multiply_primes, below, then
+    #   done: 6. Read the doc string for multiply_primes, below, then
     #       then read the test cases here.
     #   After you have read both, change this _TODO_ to DONE.
     ###############################################################################
@@ -189,7 +189,7 @@ def multiply_primes(m,n):
 
 
     ################################################################################
-    #   TODO: 6. Write the function multiply_primes(m,n) below here
+    #   done: 6. Write the function multiply_primes(m,n) below here
     # After you have coded and tested, change this _TODO_ to DONE.
     ###############################################################################
 
@@ -198,9 +198,9 @@ def multiply_primes(m,n):
         for k in range(m, (n + 1), 1):
             if is_prime(k):
                 total = (total * k)
-            elif (total - 1) == 0:
-                total = 0
-        return total
+    if (total - 1) == 0:
+        total = 0
+    return total
 
 
 
